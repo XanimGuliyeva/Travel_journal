@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+header{
+    background-color: #F55A5A;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header p,i{
+    color: white;    
+    font-size: 20px;    
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+/* styles.css */
+
+.travel-journal-item {
+    display: flex;
+    margin: 20px;
+    min-height: 200px;
+    align-items:center;    
+}
+
+img {
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.location-info {
+    padding-left: 20px;
+    margin-bottom: 15px;    
+}
+
+.location-name {
+    color: #2B283A;
+    font-size: 18px;
+}
+.location-name a{
+    color: #918E9B;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.location-info i{
+    color: #F55A5A;
+}
+
+.fa-map-marker {
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2B283A;
+    margin-bottom: 15px;
+}
+
+/* Style the time-info div for side-by-side layout */
+.time-info {
+    display: flex;
+}
+
+h3 {
+    color: #2B283A;
+    font-size: 15px;
+    margin: 0px 0px;
+}
+p{
+    color: #2B283A;
+    margin-top: 15px;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 600px) {
+    .travel-journal-item{
+        flex-direction: column;
+    }
+    .location-info {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    img {
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+}
